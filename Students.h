@@ -7,13 +7,13 @@ private:
 	std::string surname;
 	std::string group;
 public:
-	const std::string &getName() const;
+	const std::string getName() const;
 	void setName(const std::string &name);
 
-	const std::string &getSurname() const;
+	const std::string getSurname() const;
 	void setSurname(const std::string &surname);
 
-	const std::string &getGroup() const;
+	const std::string getGroup() const;
 	void setGroup(const std::string &group);
 };
 
@@ -22,9 +22,9 @@ private:
 	std::string mail;
 	std::string phone_number;
 public:
-	const std::string &getMail() const;
+	const std::string getMail() const;
 	void setMail(const std::string &mail);
 
-	const std::string &getPhoneNumber() const;
+	const std::string getPhoneNumber() const;
 	void setPhoneNumber(const std::string &phoneNumber);
 };
