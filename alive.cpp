@@ -21,7 +21,7 @@ void Bird::fly() {
 	cout << "It flies." << endl;
 }
 
-const std::string &Bird::getName() const {
+const std::string Bird::getName() const {
 	return name;
 }
 
@@ -33,7 +33,7 @@ void Fish::swim() {
 	cout << "It swims." << endl;
 }
 
-const std::string &Fish::getName() const {
+const std::string Fish::getName() const {
 	return name;
 }
 
@@ -53,7 +53,7 @@ void Dog::bark() {
 	cout << "It barks." << endl;
 }
 
-const std::string &Dog::getName() const {
+const std::string Dog::getName() const {
 	return name;
 }
 
